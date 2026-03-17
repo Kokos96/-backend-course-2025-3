@@ -39,5 +39,5 @@ if (options.display) {
 }
 
 if (options.output) {
-    fs.writeFileSync(options.output, result, 'utf8');
+    fs.writeFileSync(options.output, result, 'utf8'); // [cite: 133]
 }
